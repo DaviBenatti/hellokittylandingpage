@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor-principal: #EB1C2E;
+    --cor-secundaria: #0475BB;
+    --cor-terciaria: #9FDCF8;
+    --quarta-cor: #FBE750;
+    --cor-texto: #ffffff;
+    --cor-de-fundo: #25271C;
+}
+
+body{
+    height: 100vh;
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-texto);
+    font-size: 16px;
+}
+
+.cabecario{
+    background-color: var(--cor-principal);
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+.cabecario__menu{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 2% 4%;
+}
+
+.cabecario__menu__link{
+    text-decoration: none;
+    font-family: ;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: var(--cor-texto);
+}
