@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor-principal: #EB1C2E;
+    --cor-secundaria: #0475BB;
+    --cor-terciaria: #9FDCF8;
+    --quarta-cor: #FBE750;
+    --quinta-cor: #E40543;
+    --cor-texto: #ffffff;
+    --cor-de-fundo: #25271C;
+    --fonte-principal: 'Roboto';
+    --fonte-titulo: 'Leckerli One';  
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-texto);
+    font-size: 16px;
+}
+
+.cabecario{
+    background-color: var(--cor-principal);
+    width: auto;
+}
+
+.cabecario__menu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 80px;
+    padding: 1% 4%;
+    margin-right: 20rem;
+}
+
+.cabecario__imagem{
+    margin-right: 20rem;
+    width: 10%;
+}
+
+.cabecario__menu__link{
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cor-texto);
+}
+
+.cabecario__menu__link:hover{
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cor-de-fundo);
+}
